@@ -1,0 +1,14 @@
+//import fonts
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap');
+
+//base index file
+@import "base/index";
+
+//vendor index file
+@import "vendor/index";
+
+//utilities index file
+@import "utilities/reset";
+
+//layout incex file
+@import "layout/index"
