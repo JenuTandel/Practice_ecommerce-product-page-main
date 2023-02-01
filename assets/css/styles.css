@@ -45,16 +45,16 @@ body {
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-light: hsl(223deg, 64%, 98%);
+  --bs-dark: hsl(220deg, 14%, 75%);
   --bs-primary-rgb: 255, 125, 26;
   --bs-secondary-rgb: 104, 112, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-light-rgb: 247, 248, 253;
+  --bs-dark-rgb: 182, 188, 200;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -1639,12 +1639,12 @@ progress {
 
 .text-bg-light {
   color: #000 !important;
-  background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(247, 248, 253, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-dark {
-  color: #fff !important;
-  background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
+  color: #000 !important;
+  background-color: RGBA(182, 188, 200, var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-primary {
@@ -1690,17 +1690,17 @@ progress {
 }
 
 .link-light {
-  color: #f8f9fa !important;
+  color: hsl(223deg, 64%, 98%) !important;
 }
 .link-light:hover, .link-light:focus {
-  color: #f9fafb !important;
+  color: #f9f9fd !important;
 }
 
 .link-dark {
-  color: #212529 !important;
+  color: hsl(220deg, 14%, 75%) !important;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21 !important;
+  color: #c5c9d3 !important;
 }
 
 .ratio {
@@ -7033,36 +7033,36 @@ progress {
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-bg: hsl(223deg, 64%, 98%);
+  --bs-btn-border-color: hsl(223deg, 64%, 98%);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #d3d4d5;
-  --bs-btn-hover-border-color: #c6c7c8;
-  --bs-btn-focus-shadow-rgb: 211, 212, 213;
+  --bs-btn-hover-bg: #d2d3d7;
+  --bs-btn-hover-border-color: #c6c6ca;
+  --bs-btn-focus-shadow-rgb: 210, 211, 215;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #c6c7c8;
-  --bs-btn-active-border-color: #babbbc;
+  --bs-btn-active-bg: #c6c6ca;
+  --bs-btn-active-border-color: #b9babe;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #f8f9fa;
-  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-disabled-bg: hsl(223deg, 64%, 98%);
+  --bs-btn-disabled-border-color: hsl(223deg, 64%, 98%);
 }
 
 .btn-dark {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #212529;
-  --bs-btn-border-color: #212529;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #424649;
-  --bs-btn-hover-border-color: #373b3e;
-  --bs-btn-focus-shadow-rgb: 66, 70, 73;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #4d5154;
-  --bs-btn-active-border-color: #373b3e;
+  --bs-btn-color: #000;
+  --bs-btn-bg: hsl(220deg, 14%, 75%);
+  --bs-btn-border-color: hsl(220deg, 14%, 75%);
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #c1c6d0;
+  --bs-btn-hover-border-color: #bdc3ce;
+  --bs-btn-focus-shadow-rgb: 155, 160, 170;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #c5c9d3;
+  --bs-btn-active-border-color: #bdc3ce;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #212529;
-  --bs-btn-disabled-border-color: #212529;
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: hsl(220deg, 14%, 75%);
+  --bs-btn-disabled-border-color: hsl(220deg, 14%, 75%);
 }
 
 .btn-outline-primary {
@@ -7168,36 +7168,36 @@ progress {
 }
 
 .btn-outline-light {
-  --bs-btn-color: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-color: hsl(223deg, 64%, 98%);
+  --bs-btn-border-color: hsl(223deg, 64%, 98%);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f8f9fa;
-  --bs-btn-hover-border-color: #f8f9fa;
-  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-hover-bg: hsl(223deg, 64%, 98%);
+  --bs-btn-hover-border-color: hsl(223deg, 64%, 98%);
+  --bs-btn-focus-shadow-rgb: 247, 248, 253;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #f8f9fa;
-  --bs-btn-active-border-color: #f8f9fa;
+  --bs-btn-active-bg: hsl(223deg, 64%, 98%);
+  --bs-btn-active-border-color: hsl(223deg, 64%, 98%);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #f8f9fa;
+  --bs-btn-disabled-color: hsl(223deg, 64%, 98%);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-btn-disabled-border-color: hsl(223deg, 64%, 98%);
   --bs-gradient: none;
 }
 
 .btn-outline-dark {
-  --bs-btn-color: #212529;
-  --bs-btn-border-color: #212529;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #212529;
-  --bs-btn-hover-border-color: #212529;
-  --bs-btn-focus-shadow-rgb: 33, 37, 41;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #212529;
-  --bs-btn-active-border-color: #212529;
+  --bs-btn-color: hsl(220deg, 14%, 75%);
+  --bs-btn-border-color: hsl(220deg, 14%, 75%);
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: hsl(220deg, 14%, 75%);
+  --bs-btn-hover-border-color: hsl(220deg, 14%, 75%);
+  --bs-btn-focus-shadow-rgb: 182, 188, 200;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: hsl(220deg, 14%, 75%);
+  --bs-btn-active-border-color: hsl(220deg, 14%, 75%);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #212529;
+  --bs-btn-disabled-color: hsl(220deg, 14%, 75%);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #212529;
+  --bs-btn-disabled-border-color: hsl(220deg, 14%, 75%);
   --bs-gradient: none;
 }
 
@@ -8066,6 +8066,34 @@ figure {
 .image-wrapper img {
   height: 12px;
   width: 10px;
+}
+
+.hero-image {
+  height: 300px;
+}
+.hero-image img {
+  object-fit: cover;
+}
+
+.content-wrapper .company-name {
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.content-wrapper p {
+  font-size: 15px;
+  line-height: 24px;
+  color: hsl(219deg, 9%, 45%);
+}
+.content-wrapper .discount-wrapper {
+  height: 25px;
+  width: 50px;
+  background-color: hsl(25deg, 100%, 94%);
+}
+.content-wrapper .addtocart img {
+  color: white;
+}
+.content-wrapper button {
+  box-shadow: -1px 14px 65px -1px rgba(221, 160, 114, 0.75);
 }
 
 /*# sourceMappingURL=styles.css.map */
